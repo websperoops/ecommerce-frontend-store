@@ -20,10 +20,7 @@ module.exports = withPWA({
     ignoreDuringBuilds: true,
   },
 
- images: {
-    loader: 'imgix',
-    path: '/',
-  },
+
 });
 
 // const withBundleAnalyzer = require('@next/bundle-analyzer')({
