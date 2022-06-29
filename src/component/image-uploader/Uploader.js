@@ -84,15 +84,7 @@ const Uploader = ({ setImageUrl, imageUrl }) => {
         </em>
       </div>}
       {!loading && <aside className="flex flex-row flex-wrap mt-4">
-        {imageUrl ? (
-          <img
-            className="inline-flex border rounded-md border-gray-100 dark:border-gray-600 w-24 max-h-24 p-2"
-            src={imageUrl}
-            alt="product"
-          />
-        ) : (
-          thumbs
-        )}
+        
       </aside>}
     </div>
   );
