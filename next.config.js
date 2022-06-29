@@ -20,17 +20,9 @@ module.exports = withPWA({
     ignoreDuringBuilds: true,
   },
 
-  images: {
-    domains: [
-      'images.unsplash.com',
-      'img.icons8.com',
-      'i.ibb.co',
-      'i.postimg.cc',
-      'fakestoreapi.com',
-      'res.cloudinary.com',
-      'lh3.googleusercontent.com',
-      '',
-    ],
+ images: {
+    loader: 'imgix',
+    path: '/',
   },
 });
 
